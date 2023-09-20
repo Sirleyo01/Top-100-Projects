@@ -18,6 +18,9 @@ import DisplayQuestionListFromLocalStorageView from './Views/displayQuestionList
 import DisplayQuizFromLocalStorageView from './Views/displayQuizFromLocalStorageView.js';
 import DisplayResultFromLocalStorageView from './Views/displayResultFromLocalStorageView.js';
 
+import 'core-js/stable';
+import 'regenerator-runtime/runtime.js';
+
 // render the start quiz view
 const render_quiz_exam = function (firstname, lastname) {
   // store the firstname value into the state.fullname property
